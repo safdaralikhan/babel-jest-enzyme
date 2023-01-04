@@ -1,0 +1,61 @@
+video link for webpack babel 
+https://www.youtube.com/watch?v=GXrqtCwlcG0 
+what is Babel ? 
+babel is a javascript compiler . EcmaScript code ko browsers nhe samjhta is k liye babel is code ko 
+ek aisy code mai convert krta hai jis ko broser samjhta hai.
+jb hum react module use krty hai to humy us k sat babel mil jata ha.
+babel core - modern javascript ko asy code mai convert kary ga jis ko browser samjhy.
+babel loader - jsx file ko kesy load krna hia ya kaam hai .
+babel/preset-react - react code ko read krny k liye.
+babel/preset-env - kis env mai js ka code chalna ha like chrome edge etc.
+
+
+WHAT IS WEBPACK ?
+webpack is bundler in the sense k jb ap k pas bht sari js ki files hai html ki files hai 
+css ki files hai un sab ka bundler bana ha . jo css hai js hai un ka ek bundler bana sakta hai
+yani combine kr sakty hai merge kr sakty hai.ya sara kaam webpack krta hai .
+webpack sy related jitni chezein hoti hai wo hum ek special file mai krty hai.
+webpack.config.js
+webpack humari sari files ko bundle kr k minify js code as output mily ga.
+
+
+what is Jest?
+Jest is a JavaScript test runner, that is, a JavaScript library for creating, running,
+and structuring tests.
+jb b hum test case likhty hai koi component wagera test krny k liye to hum jest use krty hai.
+
+what is enzyme ?
+https://www.youtube.com/watch?v=sI-Nlav_hXQ&list=PLolI8AY2AS9YrlE4RXrU7ZZUEBo0cNCEd&index=1
+
+yai b ek javascript ki library hai jo k react k sat kaam krti hai is ki waja sy hum component ko test krty hai.
+Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output. You can also manipulate, traverse,
+and in some ways simulate runtime given the output.
+installation link 
+npm i --save-dev enzyme enzyme-adapter-react-16.
+
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
+
+SIMULATE
+button pai click kr k test krna k ans kya a raha hai is ko simulate kehty hai.
+
+DIVE
+ yai tb use hoga jb humy ek component mai dosra component use krty hai us k andr ki class ko find
+krny k liye dive use hota hai.
+
+SNAPSHOT
+is ka mtlb hai kesi component ki copy bana k rakhna jb b us component mai changeshogi to humy
+snapshot k test krty wakt pata chal jayega.
+
+MOUNT 
+is s ys ek comp k andr dosra comp hota hai ti us ka data b nekal k daita hai.
+
+SHALLOW
+is mai ek comp k andr dosra comp hoga to b wo us ka data nhe daiga.
+
+
+
+ 
+
+
